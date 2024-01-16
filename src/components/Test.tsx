@@ -1,10 +1,14 @@
-import { Button } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 
 export default function Test() {
   return (
     <>
-      <h1>Hello, world!</h1>
-      <Button variant='contained'>Click Me!</Button>
+      <Typography variant='h1'>Hello, world!</Typography>
+      <Button
+        variant='contained'
+        sx={{ mt: '1rem' }}>
+        Click Me!
+      </Button>
     </>
   );
 }

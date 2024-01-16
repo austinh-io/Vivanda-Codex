@@ -4,7 +4,7 @@ import Test from './components/test';
 
 function App() {
   return (
-    <Container>
+    <Container sx={{ bgcolor: 'gray', height: '100vh' }}>
       <Test />
     </Container>
   );
