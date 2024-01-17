@@ -1,11 +1,10 @@
-import { Container } from '@mui/material';
+import { Container, Typography } from '@mui/material';
 import './App.css';
-import Test from './components/test';
 
 function App() {
   return (
     <Container>
-      <Test />
+      <Typography variant='h1'>Vivanda Codex</Typography>
     </Container>
   );
 }
