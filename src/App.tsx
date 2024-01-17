@@ -5,7 +5,7 @@ function App() {
   return (
     <Container>
       <Typography variant='h1'>Vivanda Codex</Typography>
-      <Typography variant='p'>
+      <Typography>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto,
         inventore provident? Porro quasi culpa necessitatibus ipsam libero?
         Corrupti odit deserunt voluptatibus. Dolor molestiae, quisquam aliquam
